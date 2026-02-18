@@ -82,7 +82,7 @@ export function Navbar() {
 
                     {/* Actions */}
                     <div className="hidden lg:flex items-center gap-4">
-                        <Link href="/login">
+                        <Link href="https://cncphysioclinic.plusphysio.com" target="_blank">
                             <Button variant="ghost" size="sm">Login</Button>
                         </Link>
                         <a href="tel:01203137252" className="flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-primary transition-colors">
