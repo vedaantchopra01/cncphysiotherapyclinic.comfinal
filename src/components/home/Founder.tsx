@@ -45,7 +45,7 @@ export function Founder() {
                             Dr. Abhishek Chopra
                         </h2>
                         <p className="text-lg text-slate-600 dark:text-slate-400 italic">
-                            "From a single room clinic to 6 premier rehabilitation centers across NCR, our journey has been fueled by one mission: Pain-Free India."
+                            &quot;From a single room clinic to 6 premier rehabilitation centers across NCR, our journey has been fueled by one mission: Pain-Free India.&quot;
                         </p>
 
                         <div className="prose prose-slate dark:prose-invert">

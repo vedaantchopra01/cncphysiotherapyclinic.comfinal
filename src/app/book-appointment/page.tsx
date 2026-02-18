@@ -19,7 +19,7 @@ export default function BookAppointmentPage() {
               <span className="text-primary">Pain-Free Living.</span>
             </h1>
             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-              Don't let pain hold you back. Schedule an appointment with our expert physiotherapists today. We offer flexible timings and personalized care plans.
+              Don&apos;t let pain hold you back. Schedule an appointment with our expert physiotherapists today. We offer flexible timings and personalized care plans.
             </p>
 
             <div className="bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800">

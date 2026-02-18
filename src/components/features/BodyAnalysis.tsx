@@ -16,9 +16,20 @@ type AnalysisData = {
     painArea: string;
 };
 
+type AnalysisResult = {
+    bmi: string;
+    status: string;
+    calories: number;
+    protein: number;
+    water: number;
+    recommendation: string;
+    dietPlan: string[];
+    exercises: string[];
+};
+
 export function BodyAnalysis() {
-    const { register, handleSubmit, formState: { errors } } = useForm<AnalysisData>();
-    const [result, setResult] = useState<any>(null);
+    const { register, handleSubmit } = useForm<AnalysisData>();
+    const [result, setResult] = useState<AnalysisResult | null>(null);
     const [loading, setLoading] = useState(false);
 
     const calculateBMI = (weight: number, height: number) => {
